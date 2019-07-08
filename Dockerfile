@@ -4,5 +4,5 @@ MAINTAINER Radek Tomasek <radek.tomasek@gmail.com>
 
 WORKDIR /tmp
 
-# Install NPM & Node 7.x packages on CentOS
-RUN curl -sL https://rpm.nodesource.com/setup_10.x | bash - && yum install -y nodejs --nogpgcheck
+# Install NPM & Node 8.x packages on CentOS
+RUN curl -sL https://rpm.nodesource.com/setup_8.x | bash - && yum install -y nodejs --nogpgcheck
